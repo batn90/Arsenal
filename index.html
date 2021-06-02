@@ -3,149 +3,151 @@
     <head>
         <title>Arsenal Fan Page</title>
         <meta charset="UTF-8">
-        <meta name="description" content="Fan page of the Arsenal Footbal club">
+        <meta name="description" content="Fan page of the Arsenal Footbal Club">
         <meta name="keywords" content="Arsenal">
         <meta name="author" content="Bojan Pejic">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <style>
-            table, th, td {
-              border: 1px solid black;
-              padding: 10px;
-              padding-top: 5px;
-              padding-bottom: 5px;
-              text-align: center;
-                }
-        </style>
+        <link href="./style.css" type="text/css" rel="stylesheet">
+
+
     </head>
 
 <body>        
     <header>
-        <img src="Arsenal logo.jpg" alt="Arsenal logo"/>
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./aboutme.html">About Me</a>
-            <a href="./contact.html">Contact</a>
-        </nav>
+        <img id="logo" src="ArsenalWhite.png" alt="Arsenal logo"/>
     </header>
+    <nav class="navbar">
+        <a href="./index.html">Home</a></li>
+        <a href="./aboutme.html">About Me</a></li>
+        <a href="./contact.html">Contact</a></li>
+    </nav>
 
-    <div id="intro">    
-        <h1>Arsenal Football Club</h1>
-            <p>The Arsenal Football Club, nicknamed <em>Gunners</em> is a professional football club based in Islington, London, England that plays in the Premier League. The club has won 13 league titles (including one unbeaten title), a record 14 FA Cups, two League Cups, 16 FA Community Shields, the League Centenary Trophy, one European Cup Winners' Cup, and one Inter-Cities Fairs Cup. The Arsenal supporters are known as <strong>Gooners</strong></p>
-
-            <p>Arsène Wenger was the longest-serving manager and won the most trophies. He won a record seven FA Cups, and his title-winning team set an English record for the longest top-flight unbeaten league run at 49 games between 2003 and 2004, receiving the nickname The Invincibles.</p>
-            <p>In 1886  In 2006, they moved to the nearby Emirates Stadium. The motto of the club has long been Victoria Concordia Crescit, Latin for "Victory Through Harmony".</p>
-
-            <nav>
-                <ul>
-                    <li><a href="#history">History</a></li>
-                    <li><a href="#stadium">Stadium</a></li>
-                    <li><a href="#squad">Current Players</a></li>
-                    <li><a href="#scorers">Top Goalscorers</a></li>
-                    <li><a href="#appearances">Most Appearances</a></li>
-                    <li><a href="#media">Media</a></li>
-                </ul>
+    <main>
+        <article id="intro" class="article">    
+            <h1>Arsenal Football Club</h1>
+            <nav class="intronav">
+                <h3>Jump to:</h3>
+                    <ul>
+                        <li><a href="#history">History</a></li>
+                        <li><a href="#stadium">Stadium</a></li>
+                        <li><a href="#squad">Current Players</a></li>
+                        <li><a href="#scorers">Top Goalscorers</a></li>
+                        <li><a href="#appearances">Most Appearances</a></li>
+                        <li><a href="#media">Media</a></li>
+                    </ul>
             </nav>
-    </div>
-
-    <div id="history">
-        <h2>History</h2>
-            <p>In October 1886 munitions workers at the Royal Arsenal in Woolwich founded the club as Dial Square, shortly after it was renamed to Woolwich Arsenal. In 1913, the club crossed the city to Arsenal Stadium in Highbury, becoming close neighbours of Tottenham Hotspur, and creating the North London derby, the following year, they reduced Woolwich Arsenal to simply The Arsenal.</p>
-            <p>Herbert Chapman, won the club its first silverware in 1930, and his legacy led the club to dominate the 1930s decade. He helped introduce the WM formation, floodlights, and shirt numbers, he also added the white sleeves and brighter red to the club's jersey.</p>
-            <p>The club metamorphosed during the long tenure of manager Arsène Wenger, appointed in 1996. New, attacking football, an overhaul of dietary and fitness practices, and efficiency with money have defined his reign. Accumulating key players from Wenger's homeland, such as Patrick Vieira and Thierry Henry, Arsenal won a second League and Cup double in 1997–98 and a third in 2001–02. In addition, the club reached the final of the 1999–2000 UEFA Cup, were victorious in the 2003 and 2005 FA Cups, and won the Premier League in 2003–04 without losing a single match, an achievement which earned the side the nickname "The Invincibles". This latter feat came within a run of 49 league matches unbeaten from 7 May 2003 to 24 October 2004, a national record.</p>
-    </div>
+            <p>The Arsenal Football Club, nicknamed <em>Gunners</em> is a professional football club based in Islington, London, England that plays in the Premier League. The club has won 13 league titles (including one unbeaten title), a record 14 FA Cups, two League Cups, 16 FA Community Shields, the League Centenary Trophy, one European Cup Winners' Cup, and one Inter-Cities Fairs Cup. The Arsenal supporters are known as <strong>Gooners</strong></p>
     
-    <div id="stadium"> 
-        <h2>Stadium</h2>
-            <img src="Arsenal Emirates+Highbury.jpg" width="700" height="393.75"><br>
-            <img src="Arsenal stadium outside.jfif"><br>
-            <img src="Arsenal stadium inside.jpg" width="700" height="292.31">
+            <p>Arsène Wenger was the longest-serving manager and won the most trophies. He won a record seven FA Cups, and his title-winning team set an English record for the longest top-flight unbeaten league run at 49 games between 2003 and 2004, receiving the nickname The Invincibles.</p>
+            <p>In 1886  In 2006, they moved to the nearby Emirates Stadium. The motto of the club has long been Victoria Concordia Crescit, Latin for <em>"Victory Through Harmony"</em>.</p>
+        </article>
+    
+        <article id="history" class="article">
+            <h2>History</h2>
+                <p>In October 1886 munitions workers at the Royal Arsenal in Woolwich founded the club as Dial Square, shortly after it was renamed to Woolwich Arsenal. In 1913, the club crossed the city to Arsenal Stadium in Highbury, becoming close neighbours of Tottenham Hotspur, and creating the North London derby, the following year, they reduced Woolwich Arsenal to simply The Arsenal.</p>
+                <p>Herbert Chapman, won the club its first silverware in 1930, and his legacy led the club to dominate the 1930s decade. He helped introduce the WM formation, floodlights, and shirt numbers, he also added the white sleeves and brighter red to the club's jersey.</p>
+                <p>The club metamorphosed during the long tenure of manager Arsène Wenger, appointed in 1996. New, attacking football, an overhaul of dietary and fitness practices, and efficiency with money have defined his reign. Accumulating key players from Wenger's homeland, such as Patrick Vieira and Thierry Henry, Arsenal won a second League and Cup double in 1997–98 and a third in 2001–02. In addition, the club reached the final of the 1999–2000 UEFA Cup, were victorious in the 2003 and 2005 FA Cups, and won the Premier League in 2003–04 without losing a single match, an achievement which earned the side the nickname <em>"The Invincibles"</em>. This latter feat came within a run of 49 league matches unbeaten from 7 May 2003 to 24 October 2004, a national record.</p>
+        </article>
+
+        <article id="stadium" class="article"> 
+            <h2>Stadium</h2>
+            <figure>
+                <img src="Arsenal Emirates+Highbury.jpg" width="700"><br>
+                <img src="Arsenal stadium inside.jpg" width="700">
+            </figure>
             <p>Widely referred to as Highbury, Arsenal Stadium was the club's home from September 1913 until May 2006. The original stadium was designed by the renowned football architect Archibald Leitch, with a single covered stand and three open-air banks of terracing. The entire stadium was given a massive overhaul in the 1930s: new Art Deco West and East stands were constructed, and a roof was added to the North Bank terrace. Highbury could hold more than 60,000 spectators at its peak, and had a capacity of 57,000 until the early 1990s. The Taylor Report and Premier League regulations obliged Arsenal to convert Highbury to an all-seater stadium in time for the 1993–94 season, thus reducing the capacity to 38,419 seated spectators.</p>
             <p>Expansion of Highbury was restricted and in 2000 Arsenal proposed building a new 60,361-capacity stadium at Ashburton Grove, about 500 metres south-west of Highbury. Construction began in 2002 and was completed in July 2006, just in time for the start of the 2006–07 season. The stadium was named after its sponsors, the airline company Emirates, some fans referred to the ground as Ashburton Grove, or the Grove, as they did not agree with corporate sponsorship of stadium names. From the start of the 2010–11 season on, the stands of the stadium have been officially known as North Bank, East Stand, West Stand and Clock end.</p>
-    </div>
-       
-    <div id="squad">
-        <h2>Current Squad</h2>
-        <img src="Arsenal 2020 Team Photo 1920x1080.jpg">
-        <table>
-            <thead>
-                <tr>
-                    <th scope="col">Keepers</th>
-                    <th scope="col">Defenders</th>
-                    <th scope="col">Midfielders</th>
-                    <th scope="col">Forwards</th>
-                    <th scope="col">On Loan</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td id="keepers">
-                        <ul>
-                            <li><a href="https://www.arsenal.com/men/players/bernd-leno" target="_blank"> <img src="Players/Leno.png" width="64" height="64"><br>Bernd Leno</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/alex-runarsson" target="_blank"> <img src="Players/Runarsson.png" width="64" height="64"><br>Alex Runarsson</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/mat-ryan" target="_blank"> <img src="Players/Ryan.png" width="64" height="64"><br>Mat Ryan</a></li>
-                        </ul> 
-                    </td>
-                    <td id="defenders">
-                        <ul>                
-                            <li><a href="https://www.arsenal.com/men/players/hector-bellerin" target="_blank"><img src="Players/Bellerin.png" width="64" height="64"><br>Hector Bellerin</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/kieran-tierney" target="_blank"><img src="Players/Tierney.png" width="64" height="64"><br> Kieran Tierney</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/gabrielmagalhaes" target="_blank"><img src="Players/Gabriel.png" width="64" height="64"><br>Gabriel</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/rob-holding" target="_blank"><img src="Players/Holding.png" width="64" height="64"><br>Rob Holding</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/cedric-soares" target="_blank"><img src="Players/Cedric.png" width="64" height="64"><br>Cedric</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/calum-chambers" target="_blank"><img src="Players/Chambers.png" width="64" height="64"><br>Calum Chambers</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/pablo-mari" target="_blank"><img src="Players/Mari.png" width="64" height="64"><br>Pablo Mari</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/david-luiz" target="_blank"><img src="Players/Luiz.png" width="64" height="64"><br>David Luiz</a></li>
-                        </ul>
-                    </td>
-                    <td id="midfielders">
-                        <ul>                
-                            <li><a href="https://www.arsenal.com/men/players/bukayo-saka" target="_blank"><img src="Players/Saka.png" width="64" height="64"><br>Bukayo Saka</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/dani-ceballos" target="_blank"><img src="Players/Ceballos.png" width="64" height="64"><br>Dani Ceballos</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/martin-odegaard" target="_blank"><img src="Players/Odegaard.png" width="64" height="64"><br>Martin Odegaard</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/thomas-partey" target="_blank"><img src="Players/Partey.png" width="64" height="64"><br>Thomas Partey</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/mohamed-elneny" target="_blank"><img src="Players/Elneny.png" width="64" height="64"><br>Mohamed Elneny</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/emile-smith-rowe" target="_blank"><img src="Players/Smith Rowe.png" width="64" height="64"><br>Emile Smith Rowe</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/granit-xhaka" target="_blank"><img src="Players/Xhaka.png" width="64" height="64"><br>Granit Xhaka</a></li>
-                        </ul>
-                    </td>
-                    <td id="forwards">
-                        <ul>                
-                            <li><a href="https://www.arsenal.com/men/players/alexandre-lacazette" target="_blank"><img src="Players/Lacazette.png" width="64" height="64"><br>Alexandre Lacazette</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/willian" target="_blank"><img src="Players/Willian.png" width="64" height="64"><br>Willian</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/pierre-emerick-aubameyang" target="_blank"> <img src="Players/Aubameyang.png" width="64" height="64"><br>Pierre-Emerick<br>Aubameyang</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/nicolas-pepe" target="_blank"> <img src="Players/Pepe.png" width="64" height="64"><br>Nicolas Pepe</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/reiss-nelson" target="_blank"><img src="Players/Nelson.png" width="64" height="64"><br>Reiss Nelson</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/eddie-nketiah" target="_blank"><img src="Players/Nketiah.png" width="64" height="64"><br>Eddie Nketiah</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/gabriel-martinelli" target="_blank"><img src="Players/Martinelli.png" width="64" height="64"><br>Gabriel Martinelli</a></li>
-                        </ul>
-                    </td>
-                    <td id="loanees">
-                        <ul>
-                            <li><a href="https://www.arsenal.com/men/players/william-saliba"><img src="Players/Saliba.png" width="64" height="64"><br>William Saliba</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/sead-kolasinac"><img src="Players/Kolasinac.png" width="64" height="64"><br>Sead Kolasinac</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/konstantinos-mavropanos"><img src="Players/Mavropanos.png" width="64" height="64"><br>Konstantinos Mavropanos</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/lucas-torreira"><img src="Players/Torreira.png" width="64" height="64"><br>Lucas Torreira</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/ainsley-maitland-niles"><img src="Players/Maitland-Niles.png" width="64" height="64"><br>Ainsley<br>Maitland-Niles</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/joe-willock"><img src="Players/Willock.png" width="64" height="64"><br>Joe Willock</a></li>
-                            <li><a href="https://www.arsenal.com/men/players/matteo-guendouzi"><img src="Players/Guendouzi.png" width="64" height="64"><br>Matteo Guendouzi</a></li>
-                        </ul>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    
-    <div id="scorers">
-        <h2>Top Goalscorers</h2>
-            <table>
+        </article>
+           
+        <article id="squad" class="article">
+            <h2>Current Squad</h2>
+            <figure>
+                <img src="Arsenal 2020 Team Photo 1920x1080.jpg" alt="Team photo of the current Arsenal squad">
+                <figcaption>Team photo of the current Arsenal squat</figcaption>
+            </figure>
+            <div id="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col" class="cornertl">Keepers</th>
+                            <th scope="col">Defenders</th>
+                            <th scope="col">Midfielders</th>
+                            <th scope="col">Forwards</th>
+                            <th scope="col" class="cornertr">On Loan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="keepers" class="cornerbl">
+                                <ul>
+                                    <li><a href="https://www.arsenal.com/men/players/bernd-leno" target="_blank"> <img src="Players/Leno.png" width="64" height="64"><br>Bernd Leno</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/alex-runarsson" target="_blank"> <img src="Players/Runarsson.png" width="64" height="64"><br>Alex Runarsson</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/mat-ryan" target="_blank"> <img src="Players/Ryan.png" width="64" height="64"><br>Mat Ryan</a></li>
+                                </ul> 
+                            </td>
+                            <td id="defenders">
+                                <ul>                
+                                    <li><a href="https://www.arsenal.com/men/players/hector-bellerin" target="_blank"><img src="Players/Bellerin.png" width="64" height="64"><br>Hector Bellerin</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/kieran-tierney" target="_blank"><img src="Players/Tierney.png" width="64" height="64"><br> Kieran Tierney</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/gabrielmagalhaes" target="_blank"><img src="Players/Gabriel.png" width="64" height="64"><br>Gabriel</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/rob-holding" target="_blank"><img src="Players/Holding.png" width="64" height="64"><br>Rob Holding</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/cedric-soares" target="_blank"><img src="Players/Cedric.png" width="64" height="64"><br>Cedric</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/calum-chambers" target="_blank"><img src="Players/Chambers.png" width="64" height="64"><br>Calum Chambers</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/pablo-mari" target="_blank"><img src="Players/Mari.png" width="64" height="64"><br>Pablo Mari</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/david-luiz" target="_blank"><img src="Players/Luiz.png" width="64" height="64"><br>David Luiz</a></li>
+                                </ul>
+                            </td>
+                            <td id="midfielders">
+                                <ul>                
+                                    <li><a href="https://www.arsenal.com/men/players/bukayo-saka" target="_blank"><img src="Players/Saka.png" width="64" height="64"><br>Bukayo Saka</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/dani-ceballos" target="_blank"><img src="Players/Ceballos.png" width="64" height="64"><br>Dani Ceballos</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/martin-odegaard" target="_blank"><img src="Players/Odegaard.png" width="64" height="64"><br>Martin Odegaard</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/thomas-partey" target="_blank"><img src="Players/Partey.png" width="64" height="64"><br>Thomas Partey</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/mohamed-elneny" target="_blank"><img src="Players/Elneny.png" width="64" height="64"><br>Mohamed Elneny</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/emile-smith-rowe" target="_blank"><img src="Players/Smith Rowe.png" width="64" height="64"><br>Emile Smith Rowe</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/granit-xhaka" target="_blank"><img src="Players/Xhaka.png" width="64" height="64"><br>Granit Xhaka</a></li>
+                                </ul>
+                            </td>
+                            <td id="forwards">
+                                <ul>                
+                                    <li><a href="https://www.arsenal.com/men/players/alexandre-lacazette" target="_blank"><img src="Players/Lacazette.png" width="64" height="64"><br>Alexandre Lacazette</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/willian" target="_blank"><img src="Players/Willian.png" width="64" height="64"><br>Willian</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/pierre-emerick-aubameyang" target="_blank"> <img src="Players/Aubameyang.png" width="64" height="64"><br>Pierre-Emerick<br>Aubameyang</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/nicolas-pepe" target="_blank"> <img src="Players/Pepe.png" width="64" height="64"><br>Nicolas Pepe</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/reiss-nelson" target="_blank"><img src="Players/Nelson.png" width="64" height="64"><br>Reiss Nelson</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/eddie-nketiah" target="_blank"><img src="Players/Nketiah.png" width="64" height="64"><br>Eddie Nketiah</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/gabriel-martinelli" target="_blank"><img src="Players/Martinelli.png" width="64" height="64"><br>Gabriel Martinelli</a></li>
+                                </ul>
+                            </td>
+                            <td id="loanees" class="cornerbr">
+                                <ul>
+                                    <li><a href="https://www.arsenal.com/men/players/william-saliba"><img src="Players/Saliba.png" width="64" height="64"><br>William Saliba</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/sead-kolasinac"><img src="Players/Kolasinac.png" width="64" height="64"><br>Sead Kolasinac</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/konstantinos-mavropanos"><img src="Players/Mavropanos.png" width="64" height="64"><br>Konstantinos Mavropanos</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/lucas-torreira"><img src="Players/Torreira.png" width="64" height="64"><br>Lucas Torreira</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/ainsley-maitland-niles"><img src="Players/Maitland-Niles.png" width="64" height="64"><br>Ainsley<br>Maitland-Niles</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/joe-willock"><img src="Players/Willock.png" width="64" height="64"><br>Joe Willock</a></li>
+                                    <li><a href="https://www.arsenal.com/men/players/matteo-guendouzi"><img src="Players/Guendouzi.png" width="64" height="64"><br>Matteo Guendouzi</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </article>
+        
+        <article id="" class="article">
+            <h2>Top Goalscorers</h2>
+            <table class="tscorers">
                 <thead>
                     <tr>
-                        <th scope="col">#</th>
+                        <th scope="col" class="cornertl">#</th>
                         <th scope="col">Player Name</th>
-                        <th scope="col">Number of Goals</th>
-                        <th scope="col">Number of Games</th>
-                        <th scope="col">Goals per Game</th>
+                        <th scope="col">Goals</th>
+                        <th scope="col">Games</th>
+                        <th scope="col" class="cornertr">Average</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -161,76 +163,75 @@
                         <td>Ian Wright</td>
                         <td>185</td>
                         <td>288</td>
-                        <td></td>
+                        <td>0,64</td>
                     </tr>
                     <tr>
                         <th>3</th>
                         <td>Cliff bastin</td>
                         <td>178</td>
                         <td>396</td>
-                        <td></td>
+                        <td>0,44</td>
                     </tr>
                     <tr>
                         <th>4</th>
                         <td>John Radford</td>
                         <td>149</td>
                         <td>481</td>
-                        <td></td>
+                        <td>0,30</td>
                     </tr>
                     <tr>
                         <th rowspan="2">5</th>
                         <td>Jimmy Brain</td>
                         <td>139</td>
                         <td>232</td>
-                        <td></td>
+                        <td>0,59</td>
                     </tr>
                     <tr>
                         <td>Ted Drake</td>
                         <td>139</td>
                         <td>184</td>
-                        <td></td>
+                        <td>0,75</td>
                     </tr>
                     <tr>
                         <th>7</th>
                         <td>Doug Lishman</td>
                         <td>137</td>
                         <td>244</td>
-                        <td></td>
+                        <td>0,56</td>
                     </tr>
                     <tr>
                         <th>8</th>
                         <td>Robin van Persie</td>
                         <td>132</td>
                         <td>278</td>
-                        <td></td>
+                        <td>0,47</td>
                     </tr>
                     <tr>
                         <th>9</th>
                         <td>Joe Hulme</td>
                         <td>125</td>
                         <td>374</td>
-                        <td></td>
+                        <td>0,33</td>
                     </tr>
                     <tr>
-                        <th>10</th>
+                        <th class="cornerbl">10</th>
                         <td>David Jack</td>
                         <td>124</td>
                         <td>208</td>
-                        <td></td>
+                        <td class="cornerbr">0,59</td>
                     </tr>
                 </tbody>
-            </table>
-        
-    </div>
-
-    <div id="appearances">
-        <h2>Most Appearances</h2>
-            <table>
+            </table>       
+        </article>
+    
+        <article id="" class="article">
+            <h2>Most Appearances</h2>
+            <table class="tappearances">
                 <thead>
                     <tr>
-                        <th scope="col">#</th>
+                        <th scope="col" class="cornertl">#</th>
                         <th scope="col">Player Name</th>
-                        <th scope="col">appearances</th>
+                        <th scope="col" class="cornertr">Appearances</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -279,23 +280,32 @@
                         <td>481</td>
                     </tr>
                     <tr>
-                        <th scope="row">10</th>
+                        <th scope="row" class="cornerbl">10</th>
                         <td>Peter Simpson</td>
-                        <td>477</td>
+                        <td class="cornerbr">477</td>
                     </tr>
                 </tbody>
             </table>
+        </article>
+        
+        <article id="media" class="artice">
+            <h2>Media</h2>
+            <div class="media">
+                <iframe width="907" height="510" src="https://www.youtube.com/embed/7QBaIgjAlLc" title="YouTube video player" frameborder="50" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video">Video not supported</iframe>
+            </div>
+        </article>
+    </main>
 
-    </div>
-    
-    <div id="media">
-        <h2>Media</h2>
-        <iframe width="907" height="510" src="https://www.youtube.com/embed/7QBaIgjAlLc" title="YouTube video player" frameborder="50" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    
     <footer>
-        <p>Author: Bojan Pejic<br>
-        Contact: <a href="mailto:bojan.pejic90@gmail.com">bojan.pejic90@gmail.com</a></p>
+        <div class="footer">
+            <div id="info">
+                <p>Author: Bojan Pejic<br>
+                    Contact: <a href="mailto:bojan.pejic90@gmail.com">bojan.pejic90@gmail.com</a></p>
+            </div>
+            <div id="backup">
+                <a href=""><img src="./uparrow.png"></img></a>
+            </div>
+        </div>
     </footer>
 
 </body>

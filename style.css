@@ -1,0 +1,236 @@
+body {
+  background: linear-gradient(90deg, #ff0000, #000000);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  text-align: left;
+}
+
+article {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 2px solid white;
+    padding: 5px;
+    text-align: center;
+      }
+
+table {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#table {
+    max-width: 800px;
+    overflow: auto;
+}
+
+.tscorers {
+    width: 100%;
+
+}
+
+.tappearances {
+    width: 100%;
+}
+
+#stats {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#appearances, #scorers {
+    display: inline-block;
+    width: 49%;
+}
+
+table ul {
+    list-style-type: none;
+    padding: 1%;
+}
+
+.cornertl {
+    border-top-left-radius: 10px;
+}
+
+.cornertr {
+    border-top-right-radius: 10px;
+}
+
+.cornerbr {
+    border-bottom-right-radius: 10px;
+}
+
+.cornerbl {
+    border-bottom-left-radius: 10px;
+}
+
+a {
+    color: white
+
+}
+
+header {
+    text-align: center;
+}
+
+#logo {
+    height: 300px;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #ff0000, #000000);
+    border-bottom: white 2px solid;
+    padding: 20px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar a {
+
+    color: white;
+    display: inline-flex;
+    height: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: center; /* this centers the content verticaly*/
+    justify-content: center; /* this centers the content horizontaly*/
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+
+}
+
+.navbar a:hover {
+    background: rgba(255, 255, 255, 0);
+}
+
+.intronav {
+    list-style-type: none;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 1%;
+    background: rgba(255, 255, 255, 0.3);
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.intronav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+h1, h2 {
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: rgba(255, 255, 255, 0.3);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+footer {
+    border-top: white solid 2px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.footer {
+    color: whitesmoke;
+    font-size: small;
+    position: relative;
+    max-width: 800px;
+    height: 80px;
+    margin: auto;
+}
+
+#info {    
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    display: inline-flex;
+    justify-content: center; /* this centers the content horizontaly*/
+    align-items: center; /* this centers the content verticaly*/
+    position: absolute; /* defines the position of the item in the parent container, the parent has to te POSITIONED (anything besides static)!*/
+    bottom: 10px;
+    left: 0;
+    height: 40px;
+}
+
+
+
+#backup a {
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    display: inline-flex;
+    justify-content: center; /* this centers the content horizontaly*/
+    align-items: center; /* this centers the content verticaly*/
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+
+#backup a:hover {
+    background: rgba(255, 255, 255, 0);
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.media {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 56.25% because of the aspect ratio 16:9 */
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+fieldset {
+    border:white solid 2px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+input, textarea {
+    border:white solid 2px;
+    border-radius: 10px;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+}

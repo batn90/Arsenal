@@ -3,105 +3,124 @@
     <head>
         <title>Arsenal Fan Page</title>
         <meta charset="UTF-8">
-        <meta name="description" content="Fan page of the Arsenal Footbal club">
+        <meta name="description" content="Fan page of the Arsenal Footbal Club">
         <meta name="keywords" content="Arsenal">
         <meta name="author" content="Bojan Pejic">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="./style.css" type="text/css" rel="stylesheet">
+
     </head>
 
-<body>    <img src="Arsenal logo.jpg" alt="Arsenal logo"/>
-    <nav>
-        <a href="./index.html">Home</a>
-        <a href="./aboutme.html">About Me</a>
-        <a href="./contact.html">Contact</a>
+<body>    
+    <header>
+        <img id="logo" src="ArsenalWhite.png" alt="Arsenal logo"/>
+    </header>
+    <nav class="navbar">
+        <a href="./index.html">Home</a></li>
+        <a href="./aboutme.html">About Me</a></li>
+        <a href="./contact.html">Contact</a></li>
     </nav>
 
-    <Section>
-        <form action="./thanks.html" method="POST">
-            <h1>Contact Us</h1>
-            <p>Have any quesions or suggestions, want to give feedback? Please feel free to contact us!</p>
-            <fieldset>
-                <legend>Contact Information</legend>
-                <section>
-                    <label for="fname">First Name:</label><br>
-                    <input type="text" name="fname" id="fname" required>
-                </section>
-                <hr>
-                <section>
-                    <label for="lname">Last Name:</label><br>
-                    <input type="text" name="lname" id="lname" required>
-                </section>
-                <hr>
-                <section>
-                    <label for="email">Email:</label><br>
-                    <input type="email" name="email" id="email" required>
-                </section>
-                <hr>
-                <section>
-                    <label for="mobile">Mobile Number:</label><br>
-                    <input type="tel" name="mobile" id="mobile">
-                </section>
-            </fieldset>
-            <br>
-            <fieldset>
-                <legend>Your opinions</legend>
-                <section>
-                    <label for="source">How did you found out about us?</label><br>
-                    <select name="source" id="source">
-                        <option value="friend">Friend</option>
-                        <option value="newsletter">Newsletter</option>
-                        <option value="surfing">Surfing</option>
-                        <option value="socialmedia">Social Media</option>
-                    </select>
-                </section>
-                <hr>
-                <section>
-                    <label for="favorite">Who is your favorite Arsenal player?</label><br>
-                    <input list="afcplayers" name="favorite" id="favorite">
-                        <datalist id="afcplayers">
-                            <optgroup label="Former Players">
-                                <option value="Henry">Thierry Henry</option>
-                                <option value="Bergkamp">Dennis Bergkamp</option>
-                                <option value="Fabregas">Cesc Fabregas</option>
-                                <option value="Viera">Patrick Viera</option>
-                            </optgroup>
-                            <optgroup label="Current Players">
-                                <option value="Aubameyang">P.E.Aubameyang</option>
-                                <option value="Lacazette">Alexander Lacazette</option>
-                                <option value="Saka">Bukayo Saka</option>
-                                <option value="Tierney">Kieran Tierney</option>
-                            </optgroup>
-                        </datalist>
-                </section>
-                <section>
-                    <span>Would you recommend us to a friend?</span><br>
-                    <label for="recommendation">Yes</label>
-                    <input type="radio" name="recommendation" id="yes">
+    <main>
+        <Section>
+            <form action="./thanks.html" method="POST">
+                <h1>Contact Us</h1>
+                <p>Have any questions or suggestions, want to give feedback? Please feel free to contact us!</p>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <section>
+                        <label for="fname">First Name:</label><br>
+                        <input type="text" name="fname" id="fname" required>
+                    </section>
+                    <hr>
+                    <section>
+                        <label for="lname">Last Name:</label><br>
+                        <input type="text" name="lname" id="lname">
+                    </section>
+                    <hr>
+                    <section>
+                        <label for="email">Email:</label><br>
+                        <input type="email" name="email" id="email" required>
+                    </section>
+                    <hr>
+                    <section>
+                        <label for="mobile">Mobile Number:</label><br>
+                        <input type="tel" name="mobile" id="mobile" pattern="[0-9/\-+ ]+" title="Please include only numbers 0-9 and symbols + - or /">
+                    </section>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Your opinions</legend>
+                    <section>
+                        <label for="source">How did you found out about us?</label><br>
+                        <input list="sources" name="source" id="source">
+                            <datalist id="sources">
+                                <option value="Friend"></option>
+                                <option value="Newsletter"></option>
+                                <option value="Surfing"></option>
+                                <option value="Social Media"></option>
+                            </datalist>
+                    </section>
+                    <hr>
+                    <section>
+                        <label for="favorite">Who is your favorite Arsenal player?</label><br>
+                        <select list="afcplayers" name="favorite" id="favorite" size="5">
+                            <datalist id="afcplayers">
+                                <optgroup label="Former Players">
+                                    <option value="Henry">Thierry Henry</option>
+                                    <option value="Bergkamp">Dennis Bergkamp</option>
+                                    <option value="Fabregas">Cesc Fabregas</option>
+                                    <option value="Viera">Patrick Viera</option>
+                                    <option value="Wright">Ian Wright</option>
+                                </optgroup>
+                                <optgroup label="Current Players">
+                                    <option value="Aubameyang">P.E.Aubameyang</option>
+                                    <option value="Lacazette">Alexander Lacazette</option>
+                                    <option value="Saka">Bukayo Saka</option>
+                                    <option value="Tierney">Kieran Tierney</option>
+                                </optgroup>
+                            </datalist>
+                        </select>
+                    </section>
+                    <hr>
+                    <section>
+                        <span>Would you recommend us to a friend?</span><br>
+                        <label for="recommendation">Yes</label>
+                        <input type="radio" name="recommendation" id="yes" value="yes">
+        
+                        <label for="recommendation">No</label>
+                        <input type="radio" name="recommendation" id="no" value="no">
+                    </section>
+                    <hr>
+                    <section>
+                        <label for="satisfaction">How satisfied are you with the page?</label><br>
+                        <span>Not at all</span><input type="range" name="satisfaction" id="satisfaction" min="0" max="10" step="1"><span>Very satisfied</span>
+                    </section>
+                    <hr>
+                    <section>
+                        <label for="msg">Your Feedback:</label><br>
+                        <textarea name="msg" id="msg" placeholder="Your message" rows="10" cols="50" maxlength="400"></textarea>
+                    </section>
+                    <hr>
+                    <section>
+                        <input type="submit" value="Send">
+                    </section>
+                </fieldset>
     
-                    <label for="recommendation">No</label>
-                    <input type="radio" name="recommendation" id="no">
-                </section>
-                <hr>
-                <section>
-                    <label for="satisfaction">How satisfied are you with the page?</label><br>
-                    <span>Not at all</span><input type="range" name="satisfaction" id="satisfaction" min="0" max="10" step="1"><span>Very satisfied</span>
-                </section>
-                <hr>
-                <section>
-                    <label for="msg">Your Feedback:</label><br>
-                    <textarea name="msg" id="msg" placeholder="Your message" rows="10" cols="50" maxlength="400"></textarea>
-                </section>
-                <hr>
-                <section>
-                    <input type="submit" value="Send">
-                </section>
-            </fieldset>
+            </form>
+        </Section>
 
-        </form>
-    </Section>
+    </main>
+
     <footer>
-        <p>Author: Bojan Pejic<br>
-        Contact: <a href="mailto:bojan.pejic90@gmail.com">bojan.pejic90@gmail.com</a></p>
+        <div id="info">
+            <p>Author: Bojan Pejic<br>
+                Contact: <a href="mailto:bojan.pejic90@gmail.com">bojan.pejic90@gmail.com</a></p>
+        </div>
+        <div id="backup">
+            <a href=""><img src="./uparrow.png"></img></a>
+        </div>
     </footer>
 
 </body>
