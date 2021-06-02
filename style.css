@@ -6,7 +6,7 @@ body {
   text-align: left;
 }
 
-article {
+article, main {
     max-width: 800px;
     margin: 0 auto;
 }
@@ -30,23 +30,9 @@ table {
     overflow: auto;
 }
 
-.tscorers {
+.tscorers, .tappearances {
     width: 100%;
 
-}
-
-.tappearances {
-    width: 100%;
-}
-
-#stats {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-#appearances, #scorers {
-    display: inline-block;
-    width: 49%;
 }
 
 table ul {
