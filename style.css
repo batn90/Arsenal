@@ -9,6 +9,10 @@ body {
 article, main {
     max-width: 800px;
     margin: 0 auto;
+    scroll-margin-top: 90px; /*to avoid the sticky navbar covering part of the container when jumping to the article, 
+                            the pixel value has to be the same as the navbar height, the attribute has to be defined in the anchor element where
+                            you are jumping to (class, ID, tag...*/
+
 }
 
 th, td {
