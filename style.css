@@ -15,13 +15,37 @@ article, main {
 
 }
 
+.currentsquad {
+    background-image: url("./Images/Arsenal-2020-Team-Photo-1920x1080.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 56.25% because of the aspect ratio 16:9 */
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.currentsquad p {
+    color:white;
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+}
+
 th, td {
     border: 2px solid white;
     padding: 5px;
     text-align: center;
       }
 
-table {
+.table {
+    max-width: 800px;
+    width: auto;
+    overflow: auto;
     border: 2px solid white;
     border-radius: 10px;
     padding: 5px;
@@ -29,14 +53,33 @@ table {
     background: rgba(255, 255, 255, 0.3);
 }
 
-#table {
-    max-width: 800px;
-    overflow: auto;
+.tplayers, .tscorers, .tappearances {
+    width: 100%;
 }
 
-.tscorers, .tappearances {
-    width: 100%;
+.table::-webkit-scrollbar {
+    height: 10px;
+}
 
+.table::-webkit-scrollbar-track {
+    border-top: 2px solid white;
+}
+
+.table::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 1.0);
+
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.table::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 table ul {
@@ -75,7 +118,7 @@ header {
 
 .navbar {
     background: linear-gradient(90deg, #ff0000, #000000);
-    border-bottom: white 2px solid;
+    border-bottom: 2px solid white;
     padding: 20px;
     height: 40px;
     font-family: Arial, Helvetica, sans-serif;
@@ -84,6 +127,7 @@ header {
     text-align: center;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 .navbar a {
@@ -95,8 +139,7 @@ header {
     padding-right: 5%;
     align-items: center; /* this centers the content verticaly*/
     justify-content: center; /* this centers the content horizontaly*/
-    border-style: solid;
-    border-width: 2px;
+    border: 2px solid white;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.3);
 
@@ -109,9 +152,8 @@ header {
 .intronav {
     list-style-type: none;
     font-weight: bold;
-    border-style: solid;
+    border: 2px solid white;
     border-radius: 10px;
-    border-width: 2px;
     padding: 1%;
     background: rgba(255, 255, 255, 0.3);
     width: 150px;
@@ -126,9 +168,8 @@ header {
 }
 
 h1, h2 {
-    border-style: solid;
+    border: 2px solid white;
     border-radius: 10px;
-    border-width: 2px;
     padding-left: 2%;
     padding-right: 2%;
     background: rgba(255, 255, 255, 0.3);
@@ -137,7 +178,7 @@ h1, h2 {
 }
 
 footer {
-    border-top: white solid 2px;
+    border-top: 2px solid white;
     margin-top: 20px;
     width: 100%;
 }
@@ -152,9 +193,8 @@ footer {
 }
 
 #info {    
-    border-style: solid;
+    border: 2px solid white;
     border-radius: 10px;
-    border-width: 2px;
     padding: 5px;
     background: rgba(255, 255, 255, 0.3);
     display: inline-flex;
@@ -171,8 +211,7 @@ footer {
 #backup a {
     color: white;
     text-align: center;
-    border-style: solid;
-    border-width: 2px;
+    border: 2px solid white;
     border-radius: 50%;
     height: 40px;
     width: 40px;
@@ -200,7 +239,12 @@ img {
     width: 100%;
     height: 0;
     padding-bottom: 56.25%; /* 56.25% because of the aspect ratio 16:9 */
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: hidden;
 }
+
 .video {
     position: absolute;
     top: 0;
@@ -210,13 +254,13 @@ img {
 }
 
 fieldset {
-    border:white solid 2px;
+    border:2px solid white;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.3);
 }
 
 input, textarea {
-    border:white solid 2px;
+    border:2px solid white;
     border-radius: 10px;
 }
 

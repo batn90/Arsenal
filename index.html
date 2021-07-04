@@ -63,12 +63,13 @@
            
         <article id="squad" class="article">
             <h2>Current Squad</h2>
-            <figure>
-                <img src="./Images/Arsenal-2020-Team-Photo-1920x1080.jpg" alt="Team photo of the current Arsenal squad">
-                <figcaption>Team photo of the current Arsenal squat</figcaption>
-            </figure>
-            <div id="table">
-                <table>
+
+            <div class="currentsquad">
+                <p>Team photo of the current Arsenal squad</p>
+            </div>
+
+            <div class="table">
+                <table class="tplayers">
                     <thead>
                         <tr>
                             <th scope="col" class="cornertl">Keepers</th>
@@ -141,160 +142,163 @@
         
         <article id="scorers" class="article">
             <h2>Top Goalscorers</h2>
-            <table class="tscorers">
-                <thead>
-                    <tr>
-                        <th scope="col" class="cornertl">#</th>
-                        <th scope="col">Player Name</th>
-                        <th scope="col">Goals</th>
-                        <th scope="col">Games</th>
-                        <th scope="col" class="cornertr">Average</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>1</th>
-                        <td>Thierry Henry</td>
-                        <td>228</td>
-                        <td>377</td>
-                        <td>0,6</td>
-                    </tr>
-                    <tr>
-                        <th>2</th>
-                        <td>Ian Wright</td>
-                        <td>185</td>
-                        <td>288</td>
-                        <td>0,64</td>
-                    </tr>
-                    <tr>
-                        <th>3</th>
-                        <td>Cliff bastin</td>
-                        <td>178</td>
-                        <td>396</td>
-                        <td>0,44</td>
-                    </tr>
-                    <tr>
-                        <th>4</th>
-                        <td>John Radford</td>
-                        <td>149</td>
-                        <td>481</td>
-                        <td>0,30</td>
-                    </tr>
-                    <tr>
-                        <th rowspan="2">5</th>
-                        <td>Jimmy Brain</td>
-                        <td>139</td>
-                        <td>232</td>
-                        <td>0,59</td>
-                    </tr>
-                    <tr>
-                        <td>Ted Drake</td>
-                        <td>139</td>
-                        <td>184</td>
-                        <td>0,75</td>
-                    </tr>
-                    <tr>
-                        <th>7</th>
-                        <td>Doug Lishman</td>
-                        <td>137</td>
-                        <td>244</td>
-                        <td>0,56</td>
-                    </tr>
-                    <tr>
-                        <th>8</th>
-                        <td>Robin van Persie</td>
-                        <td>132</td>
-                        <td>278</td>
-                        <td>0,47</td>
-                    </tr>
-                    <tr>
-                        <th>9</th>
-                        <td>Joe Hulme</td>
-                        <td>125</td>
-                        <td>374</td>
-                        <td>0,33</td>
-                    </tr>
-                    <tr>
-                        <th class="cornerbl">10</th>
-                        <td>David Jack</td>
-                        <td>124</td>
-                        <td>208</td>
-                        <td class="cornerbr">0,59</td>
-                    </tr>
-                </tbody>
-            </table>       
+            <div class="table">
+                <table class="tscorers">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="cornertl">#</th>
+                            <th scope="col">Player Name</th>
+                            <th scope="col">Goals</th>
+                            <th scope="col">Games</th>
+                            <th scope="col" class="cornertr">Average</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Thierry Henry</td>
+                            <td>228</td>
+                            <td>377</td>
+                            <td>0,6</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Ian Wright</td>
+                            <td>185</td>
+                            <td>288</td>
+                            <td>0,64</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Cliff bastin</td>
+                            <td>178</td>
+                            <td>396</td>
+                            <td>0,44</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>John Radford</td>
+                            <td>149</td>
+                            <td>481</td>
+                            <td>0,30</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="2" scope="row">5</th>
+                            <td>Ted Drake</td>
+                            <td rowspan="2">139</td>
+                            <td>184</td>
+                            <td>0,75</td>
+                        </tr>
+                        <tr>
+                            <td>Jimmy Brain</td>
+                            <td>232</td>
+                            <td>0,59</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">7</th>
+                            <td>Doug Lishman</td>
+                            <td>137</td>
+                            <td>244</td>
+                            <td>0,56</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">8</th>
+                            <td>Robin van Persie</td>
+                            <td>132</td>
+                            <td>278</td>
+                            <td>0,47</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">9</th>
+                            <td>Joe Hulme</td>
+                            <td>125</td>
+                            <td>374</td>
+                            <td>0,33</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="cornerbl">10</th>
+                            <td>David Jack</td>
+                            <td>124</td>
+                            <td>208</td>
+                            <td class="cornerbr">0,59</td>
+                        </tr>
+                    </tbody>
+                </table> 
+            </div>      
         </article>
     
         <article id="appearances" class="article">
             <h2>Most Appearances</h2>
-            <table class="tappearances">
-                <thead>
-                    <tr>
-                        <th scope="col" class="cornertl">#</th>
-                        <th scope="col">Player Name</th>
-                        <th scope="col" class="cornertr">Appearances</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>David O'Leary</td>
-                        <td>723</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Tony Adams</td>
-                        <td>672 </td>
-                    </tr>
-                    <tr>
-                        <th scope="row" rowspan="2">3</th>
-                        <td>George Armstrong</td>
-                        <td>621</td>
-                    </tr>
-                    <tr>
-                        <td>Lee Dixon</td>
-                        <td>621</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">5</th>
-                        <td>Nigel Winterburn</td>
-                        <td>586</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">6</th>
-                        <td>David Seaman</td>
-                        <td>564</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">7</th>
-                        <td>Pat Rice</td>
-                        <td>528</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">8</th>
-                        <td>Peter Storey</td>
-                        <td>501</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">9</th>
-                        <td>John Radford</td>
-                        <td>481</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" class="cornerbl">10</th>
-                        <td>Peter Simpson</td>
-                        <td class="cornerbr">477</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="table">
+                <table class="tappearances">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="cornertl">#</th>
+                            <th scope="col">Player Name</th>
+                            <th scope="col" class="cornertr">Appearances</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>David O'Leary</td>
+                            <td>723</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Tony Adams</td>
+                            <td>672 </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" rowspan="2">3</th>
+                            <td>George Armstrong</td>
+                            <td rowspan="2">621</td>
+                        </tr>
+                        <tr>
+                            <td>Lee Dixon</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Nigel Winterburn</td>
+                            <td>586</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>David Seaman</td>
+                            <td>564</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">7</th>
+                            <td>Pat Rice</td>
+                            <td>528</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">8</th>
+                            <td>Peter Storey</td>
+                            <td>501</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">9</th>
+                            <td>John Radford</td>
+                            <td>481</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="cornerbl">10</th>
+                            <td>Peter Simpson</td>
+                            <td class="cornerbr">477</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </article>
         
         <article id="media" class="artice">
             <h2>Media</h2>
             <div class="media">
-                <iframe width="907" height="510" src="https://www.youtube.com/embed/7QBaIgjAlLc" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
+                <iframe width="907" height="510" src="https://www.youtube.com/embed/7QBaIgjAlLc" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen frameborder="0" class="video"></iframe>
             </div>
         </article>
+
     </main>
 
     <footer>
